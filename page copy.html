@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--
+Proyecto: mi sitio web personal
+Objetivo: practicar todos los puntos de la unidad 1
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Vallejo Leyva Marcos</title>
+
+    <!-- CSS Incrustado dentro del codigo de html -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        header,
+        nav,
+        section,
+        article,
+        footer {
+            margin: 8px;
+            padding: 12px;
+        }
+        
+        header {
+            background: #f2f2f2;
+        }
+        
+        nav {
+            background: #ddd;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .muted {
+            color: gray;
+            font-size: 0.9em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Header: encabezado de la pagina -->
+    <header>
+        <h1>Bienvenidos a mi página personal</h1><br>
+        <p class="muted">Ingeniero en Sistemas de Información</p><br>
+        <p class="muted">Hola, soy Marcos Vallejo Leyva, un entusiasta de la programación y la tecnología.</p><br>
+        <p class="muted">Un espacio para compartir mis intereses y proyectos</p>
+    </header>
+
+    <!--Nav: barra de navegacion-->
+    <nav aria-label="Navegación principal">
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!--Main: contenido principal-->
+    <main>
+        <section id="home" aria-labelledby="home-title">
+            <h2 id="home-title">Inicio</h2>
+            <p>Bienvenido a mi sitio web personal. Aquí encontrarás información sobre mí, mis habilidades, experiencia y proyectos.</p>
+            <img src="" alt="Imagen representativa de la página personal">
+        </section>
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">Sobre mí</h2>
+            <p>Hola, soy Marcos Vallejo Leyva, un entusiasta del desarrollo web y la tecnología. Me encanta aprender nuevas habilidades y compartir mis conocimientos con la comunidad.</p>
+            <!-- Lista de pasatiempos -->
+            <h3>Mis pasatiempos</h3>
+            <ul>
+                <li>Programación</li>
+                <li>Lectura de libros técnicos</li>
+                <li>Juegos de mesa</li>
+                <li>Senderismo</li>
+            </ul>
+            <figure>
+                <!-- Imagen de perfil o de algo que quiera poner-->
+                <img src="" alt="Foto de Marcos Vallejo Leyva">
+                <figcaption>Foto de Marcos Vallejo Leyva</figcaption>
+            </figure>
+        </section>
+        <section id="skills" aria-labelledby="skills-title">
+            <!-- Lista de habilidades -->
+            <h2 id="skills-title">Habilidades</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Git y GitHub</li>
+            </ul>
+        </section>
+        <section id="experience" aria-labelledby="experience-title">
+            <h2 id="experience-title">Experiencia</h2>
+            <p>Experiencia laboral:</p>
+            <ul>
+                <li>Desarrollo de aplicaciones web con HTML, CSS y JavaScript</li>
+                <li>Desarrollo de aplicaciones de escritorio con Python</li>
+            </ul>
+        </section>
+        <section id="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">Proyectos</h2>
+            <article>
+                <h3>Proyecto 1: Sitio Web Personal</h3>
+                <p>Este es mi sitio web personal donde comparto información sobre mí y mis proyectos.</p>
+                <img src="" alt="Captura de pantalla del Proyecto 1">
+            </article>
+
+            <article>
+                <h3>Proyecto 2: Aplicación de Tareas</h3>
+                <p>Una aplicación sencilla para gestionar tareas diarias, desarrollada con HTML, CSS y JavaScript.</p>
+                <img src="" alt="Captura de pantalla del Proyecto 2">
+            </article>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contacto</h2>
+            <p>Si deseas ponerte en contacto conmigo, puedes enviarme un correo electrónico a
+
+</body>
+
+<footer>
+    <p>&copy; 2024 Marcos Vallejo Leyva. Todos los derechos reservados.</p>
+</footer>
+
+</html>
